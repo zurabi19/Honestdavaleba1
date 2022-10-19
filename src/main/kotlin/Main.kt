@@ -22,6 +22,8 @@ fun main(){
     println("")
     println("")
     println(cor1.simetriuladGadatana())
+    println(cor1.distance(cor2))
+
 
 
 
