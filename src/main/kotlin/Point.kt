@@ -1,3 +1,4 @@
+
 import kotlin.math.sqrt
 import kotlin.math.pow
 class Point(acor:Double,bcor:Double) {
@@ -5,7 +6,7 @@ class Point(acor:Double,bcor:Double) {
     var Bcor=bcor
 
     override fun toString(): String {
-        return "$1cor= $Acor 2cor= $Bcor"
+        return "1cor= $Acor 2cor= $Bcor"
     }
 
     override fun equals(other: Any?): Boolean {
@@ -15,7 +16,7 @@ class Point(acor:Double,bcor:Double) {
         return Point(-1*Acor,-1*Bcor)
 
     }
-     fun distance(cord:Point):Double{
+    fun distance(cord:Point):Double{
         return  sqrt((cord.Acor - Acor).pow(2) + (cord.Bcor - Bcor).pow(2))
     }
 }
